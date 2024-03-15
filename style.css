@@ -26,7 +26,8 @@ h2 {
   font-size: 48px;
 }
 
-h3 {
+h3,
+.about-3heading {
   font-size: 24px;
   opacity: 0.7;
 }
@@ -82,14 +83,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-p {
-  background: #f9fafb;
-  padding: 22px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-}
+
 .primary-link {
   border-radius: 6px;
   padding: 18px 14px;
@@ -98,4 +92,25 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 760px) {
+  h1,
+  .about-heading {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3,
+  .about-3heading {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
