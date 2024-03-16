@@ -98,7 +98,7 @@ img {
   max-width: 100%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
   h1,
   .about-heading {
     font-size: 34px;
